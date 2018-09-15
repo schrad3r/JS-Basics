@@ -80,6 +80,7 @@ function newMyName(){
 return myName();
 } 
 //Now alert the result of invoking newMyName
+newMyName();
 
 
 
@@ -98,3 +99,4 @@ function outerFn() {
   //Code Here
 var innerFn = outerFn();
 //Now invoke innerFn.
+innerFn();
